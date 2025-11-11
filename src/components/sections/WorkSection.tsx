@@ -3,11 +3,11 @@ import "../../WorkSection.css"; // keeps your scrollbar styling
 
 export const WorkSection: React.FC = () => {
   const projects = [
-    { src: "src/assets/Billflow.png", name: "BillFlow" },
-    { src: "src/assets/FitAI.png", name: "FitAI" },
-    { src: "src/assets/Finsub.png", name: "FinSub" },
-    { src: "src/assets/Billflow.png", name: "BillFlow" },
-    { src: "src/assets/Finsub.png", name: "FinSub" },
+    { src: "../assets/Billflow.png", name: "BillFlow" },
+    { src: "../assets/FitAI.png", name: "FitAI" },
+    { src: "../assets/Finsub.png", name: "FinSub" },
+    { src: "../assets/Billflow.png", name: "BillFlow" },
+    { src: "../assets/Finsub.png", name: "FinSub" },
   ];
 
   const scrollRef = useRef<HTMLDivElement>(null);

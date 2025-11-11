@@ -38,7 +38,7 @@ export const Box: React.FC = () => {
     `,
     },
     {
-      src: "src/assets/right1.png",
+      src: "../assets/right1.png",
       alt: "Frame",
       className: `
       absolute 
@@ -62,7 +62,7 @@ export const Box: React.FC = () => {
     `,
     },
     {
-      src: "src/assets/left1.png",
+      src: "../assets/left1.png",
       alt: "Frame",
       className: `
       absolute 
